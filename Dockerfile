@@ -25,14 +25,14 @@ RUN npm install \
 #         homebridge-config-ui-x@${HOMEBRIDGE_CONFIG_VERSION}
 
 # https://github.com/ebaauw/homebridge-hue
-RUN npm install \
-        ${NPM_ARGS} \
-        homebridge-hue@${HOMEBRIDGE_HUE_VERSION}
+# RUN npm install \
+#         ${NPM_ARGS} \
+#         homebridge-hue@${HOMEBRIDGE_HUE_VERSION}
 
 # https://github.com/lukasroegner/homebridge-philips-hue-sync-box
-RUN npm install \
-        ${NPM_ARGS} \
-        homebridge-philips-hue-sync-box@${HOMEBRIDGE_HUE_SYNC_VERSION}
+# RUN npm install \
+#         ${NPM_ARGS} \
+#         homebridge-philips-hue-sync-box@${HOMEBRIDGE_HUE_SYNC_VERSION}
 
 # https://github.com/arendruni/homebridge-pihole
 RUN npm install \
